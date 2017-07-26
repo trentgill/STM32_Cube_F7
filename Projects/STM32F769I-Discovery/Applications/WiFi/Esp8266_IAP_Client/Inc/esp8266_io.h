@@ -2,14 +2,14 @@
   ******************************************************************************
   * @file    Applications\WiFi\ESP8266_IAP_Client\Inc\esp8266_io.h
   * @author  MCD Application Team
-  * @version V1.2.0
-  * @date    30-December-2016
+  * @version V1.2.1
+  * @date    14-April-2017
   * @brief   This file contains the common defines and functions prototypes for
   *          the esp8266 IO operations.
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2016 STMicroelectronics International N.V. 
+  * <h2><center>&copy; Copyright (c) 2017 STMicroelectronics International N.V.
   * All rights reserved.</center></h2>
   *
   * Redistribution and use in source and binary forms, with or without 

@@ -66,7 +66,7 @@
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.1625224934" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker">
 								<option id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.script.1072253566" name="Linker Script (-T)" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker.script" value="../STM32F756NGHx_FLASH.ld" valueType="string"/>
 								<option id="gnu.c.link.option.libs.431579059" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
-									<listOptionValue builtIn="false" value=":STemWin532_CM7_GCC.a&quot;"/>
+									<listOptionValue builtIn="false" value=":STemWin532_CM7_GCC.a"/>
 								</option>
 								<option id="gnu.c.link.option.paths.1667941637" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="../../../../../../../../Middlewares/ST/STemWin/Lib"/>
@@ -80,7 +80,7 @@
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.1211561801" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker"/>
 							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.2065094497" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver"/>
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.77427104" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler">
-								<option id="gnu.both.asm.option.include.paths.1656812836" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath"/>
+								<option id="gnu.both.asm.option.include.paths.1656812836" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths"/>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.575013719" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.1591475686" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
 							</tool>

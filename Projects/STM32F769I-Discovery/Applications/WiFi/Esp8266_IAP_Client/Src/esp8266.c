@@ -2,14 +2,14 @@
   ******************************************************************************
   * @file    WiFi/ESP8266_IAP_Client/Src/esp8266.c
   * @author  MCD Application Team
-  * @version V1.2.0
-  * @date    30-December-2016
+  * @version V1.2.1
+  * @date    14-April-2017
   * @brief   This file provides a set of functions needed to manage the ESP8266
   *          WiFi devices.
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2016 STMicroelectronics International N.V. 
+  * <h2><center>&copy; Copyright (c) 2017 STMicroelectronics International N.V.
   * All rights reserved.</center></h2>
   *
   * Redistribution and use in source and binary forms, with or without 

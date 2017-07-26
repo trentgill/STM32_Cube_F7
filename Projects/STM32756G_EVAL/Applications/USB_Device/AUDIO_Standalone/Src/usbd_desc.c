@@ -2,13 +2,13 @@
   ******************************************************************************
   * @file    USB_Device/AUDIO_Standalone/Src/usbd_desc.c
   * @author  MCD Application Team
-  * @version V1.2.0
-  * @date    30-December-2016
+  * @version V1.2.1
+  * @date    14-April-2017
   * @brief   This file provides the USBD descriptors and string formating method.
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2016 STMicroelectronics International N.V. 
+  * <h2><center>&copy; Copyright (c) 2017 STMicroelectronics International N.V. 
   * All rights reserved.</center></h2>
   *
   * Redistribution and use in source and binary forms, with or without 

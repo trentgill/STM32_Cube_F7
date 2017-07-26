@@ -5,12 +5,12 @@
   ******************** (C) COPYRIGHT 2016 STMicroelectronics *******************
   * @file    LibJPEG/LibJPEG_Decoding/readme.txt 
   * @author  MCD Application Team
-  * @version V1.2.0
-  * @date    30-December-2016
+  * @version V1.2.1
+  * @date    14-April-2017
   * @brief   Description of the LibJPEG decoding application.
   ******************************************************************************
   *
-  * Copyright (c) 2016 STMicroelectronics International N.V. All rights reserved.
+  * Copyright (c) 2017 STMicroelectronics International N.V. All rights reserved.
   *
   * Redistribution and use in source and binary forms, with or without 
   * modification, are permitted, provided that the following conditions are met:

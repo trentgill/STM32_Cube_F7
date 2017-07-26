@@ -45,7 +45,7 @@
     
   .syntax unified
   .cpu cortex-m7
-  .fpu vfp
+  .fpu softvfp
   .thumb
 
 .global  g_pfnVectors

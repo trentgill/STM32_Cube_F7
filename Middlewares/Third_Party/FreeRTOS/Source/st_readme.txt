@@ -46,7 +46,19 @@
   *
   ******************************************************************************
   @endverbatim
+
+### 03-March-2017 ###
+=========================
+  Update CMSIS-RTOS drivers to support both CMSIS Core V4.x and V5.x
   
+  Bug fixes:
+  + CMSIS-RTOS: Wrong return value for osSignalWait()
+  + CMSIS-RTOS: Not all queue size is 0 initialized with osMailCAlloc() 
+  
+  Limitation:
+  + CMSIS-RTOS: osSignalWAit() function is not fully compliant with the specification
+
+
 ### 30-September-2016 ###
 =========================
   The purpose of this release is to Upgrade to use FreeRTOS V9.0.0, this version
