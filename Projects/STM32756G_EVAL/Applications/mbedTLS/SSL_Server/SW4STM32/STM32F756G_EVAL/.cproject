@@ -54,7 +54,7 @@
 									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
 									<listOptionValue builtIn="false" value="USE_STM32756G_EVAL"/>
 									<listOptionValue builtIn="false" value="STM32F756xx"/>
-									<listOptionValue builtIn="false" value="MBEDTLS_CONFIG_FILE=&quot;&lt;mbedtls_config.h&gt;&quot;"/>
+									<listOptionValue builtIn="false" value="MBEDTLS_CONFIG_FILE=&lt;mbedtls_config.h&gt;"/>
 									<listOptionValue builtIn="false" value="_TIMEVAL_DEFINED"/>
 									<listOptionValue builtIn="false" value="_SYS_TIME_H_"/>
 									<listOptionValue builtIn="false" value="USE_LCD"/>
@@ -82,7 +82,7 @@
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.116681331" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker"/>
 							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.1133546100" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver"/>
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.1089148919" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler">
-								<option id="gnu.both.asm.option.include.paths.2074971428" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath"/>
+								<option id="gnu.both.asm.option.include.paths.2074971428" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths"/>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1934647234" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.593155185" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
 							</tool>
@@ -110,8 +110,8 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
-		<configuration artifactName="STM32F756G_EVAL" configurationName="Debug">
-			<resource resourceType="PROJECT" workspacePath="STM32F756G_EVAL"/>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/STM32F756G_EVAL"/>
 		</configuration>
 	</storageModule>
 </cproject>
