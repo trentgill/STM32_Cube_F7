@@ -420,8 +420,24 @@ HAL_StatusTypeDef HAL_SD_InitCard(SD_HandleTypeDef *hsd)
   __HAL_SD_ENABLE(hsd);
   
   /* Required power up waiting time before starting the SD initialization sequence */
-  HAL_Delay(2);
+  //HAL_Delay(2);
   
+
+
+
+  
+  // NOTE
+  // DOING A MANUAL COUNTDOWN TO ALLOW INIT WHEN CALLED FROM A CALLBACK
+  // THIS is 2ms with clock at 216MHz
+  // if you're program runs at slower speeds it will likely take longer!
+  volatile int countdown = 75000;
+  while(countdown > 0){countdown--;}
+  
+
+
+
+
+
   /* Identify card operating voltage */
   errorstate = SD_PowerON(hsd);
   if(errorstate != HAL_SD_ERROR_NONE)
